@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Heritage Life Settlements — Sell your life insurance policy for cash. Confidential, no-obligation policy reviews. Trusted by families nationwide. Free eligibility check.">
+    <meta name="keywords" content="sell life insurance policy, life settlement, viatical settlement, cash for life insurance, policy buyout, senior financial planning">
+    <meta name="author" content="Heritage Life Settlements">
+    <meta property="og:title" content="Heritage Life Settlements — Unlock Your Policy's Value">
+    <meta property="og:description" content="You may qualify to sell your life insurance policy for a cash payout. Free, confidential policy review. No obligation.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://heritagelifesettlements.com/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Heritage Life Settlements — Unlock Your Policy's Value">
+    <meta name="twitter:description" content="You may qualify to sell your life insurance policy for a cash payout. Free, confidential policy review. No obligation.">
+    <meta name="robots" content="index, follow">
+    <title>Heritage Life Settlements | Sell Your Life Insurance Policy For Cash</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'display': ['"Playfair Display"', 'Georgia', 'serif'],
+                        'body': ['"Inter"', '"DM Sans"', 'system-ui', 'sans-serif'],
+                    },
+                    colors: {
+                        'heritage': {
+                            'navy': '#060d1a',
+                            'deep': '#0a1628',
+                            'slate': '#111d33',
+                            'gold': '#c9a96e',
+                            'gold-light': '#d4bc8b',
+                            'gold-pale': '#e8d5b0',
+                            'cream': '#f5f0e8',
+                            'warm': '#b8b0a0',
+                            'muted': '#7a7568',
+                        }
+                    },
+                    fontSize: {
+                        'display-xl': ['clamp(2.8rem,5.5vw,5.5rem)', { lineHeight: '1.08', letterSpacing: '-0.02em' }],
+                        'display-lg': ['clamp(2.2rem,4vw,4rem)', { lineHeight: '1.1', letterSpacing: '-0.015em' }],
+                        'display-md': ['clamp(1.6rem,3vw,2.8rem)', { lineHeight: '1.15', letterSpacing: '-0.01em' }],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        :root {
+            --bg-primary: #060d1a;
+            --bg-secondary: #0a1628;
+            --bg-tertiary: #111d33;
+            --accent-gold: #c9a96e;
+            --accent-gold-light: #d4bc8b;
+            --accent-gold-pale: #e8d5b0;
+            --text-primary: #f5f0e8;
+            --text-secondary: #b8b0a0;
+            --text-muted: #7a7568;
+            --glass-bg: rgba(255, 255, 255, 0.025);
+            --glass-border: rgba(255, 255, 255, 0.07);
+            --glass-bg-hover: rgba(255, 255, 255, 0.05);
+            --glass-border-hover: rgba(255, 255, 255, 0.14);
+            --radius-sm: 10px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            --radius-xl: 32px;
+            --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 24px rgba(0, 0, 0, 0.3);
+            --shadow-elevated: 0 2px 4px rgba(0, 0, 0, 0.5), 0 8px 48px rgba(0, 0, 0, 0.4);
+            --shadow-gold: 0 0 60px rgba(201, 169, 110, 0.12), 0 0 120px rgba(201, 169, 110, 0.05);
+            --transition-smooth: cubic-bezier(0.22, 0.61, 0.36, 1);
+            --transition-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            scroll-behavior: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 17px;
+        }
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: 'Inter', 'DM Sans', system-ui, sans-serif;
+            overflow-x: hidden;
+            line-height: 1.6;
+            letter-spacing: -0.005em;
+        }
+        html.lenis,
+        html.lenis body {
+            height: auto;
+        }
+        .lenis.lenis-smooth {
+            scroll-behavior: auto !important;
+        }
+        .lenis.lenis-smooth [data-lenis-prevent] {
+            overscroll-behavior: contain;
+        }
+        .lenis.lenis-stopped {
+            overflow: hidden;
+        }
+
+        ::selection {
+            background: rgba(201, 169, 110, 0.35);
+            color: #fff;
+        }
+
+        .glass-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border-radius: var(--radius-lg);
+            transition: all 0.5s var(--transition-smooth);
+        }
+        .glass-card:hover {
+            background: var(--glass-bg-hover);
+            border-color: var(--glass-border-hover);
+            box-shadow: var(--shadow-elevated);
+        }
+        .glass-card-light {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: var(--radius-lg);
+        }
+
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #c9a96e 0%, #e8d5b0 35%, #d4bc8b 65%, #b8944f 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gold-border {
+            border: 1px solid rgba(201, 169, 110, 0.3);
+        }
+        .gold-border-glow {
+            border: 1px solid rgba(201, 169, 110, 0.45);
+            box-shadow: 0 0 30px rgba(201, 169, 110, 0.08), inset 0 0 30px rgba(201, 169, 110, 0.03);
+        }
+
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 16px 36px;
+            background: linear-gradient(135deg, #c9a96e 0%, #b8944f 50%, #a07838 100%);
+            color: #0a0f1a;
+            font-weight: 600;
+            font-size: 1.05rem;
+            letter-spacing: 0.01em;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.4s var(--transition-smooth);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 24px rgba(201, 169, 110, 0.25), 0 1px 3px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            white-space: nowrap;
+            min-width: 180px;
+            font-family: 'Inter', 'DM Sans', system-ui, sans-serif;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 40px rgba(201, 169, 110, 0.4), 0 2px 8px rgba(0, 0, 0, 0.35);
+            background: linear-gradient(135deg, #d4bc8b 0%, #c9a96e 50%, #b8944f 100%);
+        }
+        .btn-primary:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 12px rgba(201, 169, 110, 0.3);
+        }
+        .btn-primary::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.25) 0%, transparent 60%);
+            opacity: 0;
+            transition: opacity 0.4s;
+            pointer-events: none;
+        }
+        .btn-primary:hover::after {
+            opacity: 1;
+        }
+
+        .btn-secondary {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 15px 34px;
+            background: transparent;
+            color: #f5f0e8;
+            font-weight: 500;
+            font-size: 1rem;
+            letter-spacing: 0.01em;
+            border-radius: 50px;
+            border: 1.5px solid rgba(255, 255, 255, 0.3);
+            cursor: pointer;
+            transition: all 0.4s var(--transition-smooth);
+            text-decoration: none;
+            white-space: nowrap;
+            font-family: 'Inter', 'DM Sans', system-ui, sans-serif;
+        }
+        .btn-secondary:hover {
+            border-color: rgba(255, 255, 255, 0.6);
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+            transform: translateY(-1px);
+        }
+
+        .magnetic-btn {
+            display: inline-block;
+            transition: transform 0.15s ease-out;
+        }
+
+        .reveal-text {
+            opacity: 0;
+            transform: translateY(28px);
+        }
+        .reveal-card {
+            opacity: 0;
+            transform: translateY(40px);
+        }
+        .reveal-scale {
+            opacity: 0;
+            transform: scale(0.94);
+        }
+
+        .hero-particle {
+            position: absolute;
+            border-radius: 50%;
+            pointer-events: none;
+            animation: floatParticle var(--dur) ease-in-out infinite;
+            animation-delay: var(--delay);
+            opacity: 0;
+        }
+        @keyframes floatParticle {
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+                opacity: 0;
+            }
+            15% {
+                opacity: var(--peak-opacity);
+            }
+            50% {
+                transform: translate(var(--tx), var(--ty)) scale(var(--sc));
+                opacity: var(--peak-opacity);
+            }
+            85% {
+                opacity: 0;
+            }
+            100% {
+                transform: translate(0, 0) scale(1);
+                opacity: 0;
+            }
+        }
+
+        @keyframes slowPulse {
+            0%,
+            100% {
+                opacity: 0.5;
+            }
+            50% {
+                opacity: 0.85;
+            }
+        }
+        @keyframes gentleGlow {
+            0%,
+            100% {
+                box-shadow: 0 0 30px rgba(201, 169, 110, 0.06);
+            }
+            50% {
+                box-shadow: 0 0 60px rgba(201, 169, 110, 0.16);
+            }
+        }
+        @keyframes shimmer {
+            0% {
+                background-position: -200% center;
+            }
+            100% {
+                background-position: 200% center;
+            }
+        }
+
+        .animate-shimmer {
+            background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.03) 50%, transparent 100%);
+            background-size: 200% 100%;
+            animation: shimmer 3.5s ease-in-out infinite;
+        }
+
+        .timeline-dot {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--accent-gold);
+            box-shadow: 0 0 20px rgba(201, 169, 110, 0.5);
+            position: relative;
+            z-index: 2;
+            flex-shrink: 0;
+        }
+        .timeline-line {
+            position: absolute;
+            left: 8px;
+            top: 28px;
+            bottom: -20px;
+            width: 2px;
+            background: linear-gradient(to bottom, rgba(201, 169, 110, 0.5), rgba(201, 169, 110, 0.08));
+            z-index: 1;
+        }
+
+        .faq-accordion {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            cursor: pointer;
+            transition: all 0.35s var(--transition-smooth);
+        }
+        .faq-accordion:hover {
+            border-bottom-color: rgba(201, 169, 110, 0.4);
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s var(--transition-smooth), padding 0.4s var(--transition-smooth);
+        }
+        .faq-accordion.active .faq-answer {
+            max-height: 400px;
+            padding-bottom: 24px;
+        }
+        .faq-accordion.active .faq-icon {
+            transform: rotate(45deg);
+        }
+        .faq-icon {
+            transition: transform 0.4s var(--transition-smooth);
+            flex-shrink: 0;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: rgba(201, 169, 110, 0.6) !important;
+            box-shadow: 0 0 0 3px rgba(201, 169, 110, 0.08), 0 0 20px rgba(201, 169, 110, 0.04) !important;
+        }
+
+        @media (max-width: 768px) {
+            html {
+                font-size: 15px;
+            }
+            .btn-primary,
+            .btn-secondary {
+                padding: 14px 28px;
+                font-size: 0.95rem;
+                min-width: auto;
+                width: 100%;
+                text-align: center;
+            }
+            .glass-card {
+                border-radius: var(--radius-md);
+            }
+            .timeline-line {
+                left: 7px;
+            }
+            .timeline-dot {
+                width: 15px;
+                height: 15px;
+            }
+        }
+        @media (max-width: 480px) {
+            html {
+                font-size: 14px;
+            }
+            .hero-particle {
+                display: none;
+            }
+        }
+
+        .skip-link {
+            position: absolute;
+            top: -100px;
+            left: 16px;
+            background: var(--accent-gold);
+            color: #0a0f1a;
+            padding: 12px 20px;
+            border-radius: 8px;
+            z-index: 10000;
+            font-weight: 600;
+            transition: top 0.3s;
+            text-decoration: none;
+        }
+        .skip-link:focus {
+            top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <div id="loading-overlay" style="position:fixed;inset:0;z-index:99999;background:#060d1a;display:flex;align-items:center;justify-content:center;transition:opacity 0.7s ease,visibility 0.7s ease;">
+        <div style="text-align:center;">
+            <div style="width:48px;height:48px;border:2px solid rgba(201,169,110,0.3);border-top-color:#c9a96e;border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 20px;"></div>
+            <p style="color:#b8b0a0;font-family:'Inter',sans-serif;font-size:0.9rem;letter-spacing:0.06em;text-transform:uppercase;">Heritage Life Settlements</p>
+        </div>
+    </div>
+    <style>
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+    <header id="site-header" style="position:fixed;top:0;left:0;right:0;z-index:9990;padding:18px 0;transition:all 0.5s var(--transition-smooth);background:transparent;">
+        <div class="max-w-7xl mx-auto px-5 sm:px-8 flex items-center justify-between">
+            <a href="#" aria-label="Heritage Life Settlements Home" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
+                <div style="width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#c9a96e,#b8944f);display:flex;align-items:center;justify-content:center;box-shadow:0 0 24px rgba(201,169,110,0.3);">
+                    <span style="font-family:'Playfair Display',serif;font-weight:700;font-size:1.1rem;color:#0a0f1a;">H</span>
+                </div>
+                <span style="font-family:'Playfair Display',serif;font-weight:600;font-size:1.15rem;color:#f5f0e8;letter-spacing:0.02em;" class="hidden sm:inline">Heritage Life</span>
+            </a>
+            <nav aria-label="Main navigation" class="hidden lg:flex items-center gap-8">
+                <a href="#how-it-works" style="color:#b8b0a0;text-decoration:none;font-size:0.9rem;font-weight:500;transition:color 0.3s;" onmouseenter="this.style.color='#f5f0e8'" onmouseleave="this.style.color='#b8b0a0'">How It Works</a>
+                <a href="#why-sell" style="color:#b8b0a0;text-decoration:none;font-size:0.9rem;font-weight:500;transition:color 0.3s;" onmouseenter="this.style.color='#f5f0e8'" onmouseleave="this.style.color='#b8b0a0'">Why Sell</a>
+                <a href="#faq" style="color:#b8b0a0;text-decoration:none;font-size:0.9rem;font-weight:500;transition:color 0.3s;" onmouseenter="this.style.color='#f5f0e8'" onmouseleave="this.style.color='#b8b0a0'">FAQ</a>
+                <a href="#get-covered" style="color:#b8b0a0;text-decoration:none;font-size:0.9rem;font-weight:500;transition:color 0.3s;" onmouseenter="this.style.color='#f5f0e8'" onmouseleave="this.style.color='#b8b0a0'">Get Covered</a>
+            </nav>
+            <a href="#eligibility-form" class="btn-primary magnetic-btn" style="padding:12px 28px;font-size:0.9rem;min-width:auto;">Check Eligibility</a>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section id="hero" style="position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:120px 20px 80px;">
+            <div id="hero-particles" style="position:absolute;inset:0;pointer-events:none;z-index:0;"></div>
+            <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 35%,rgba(201,169,110,0.07) 0%,transparent 65%),radial-gradient(ellipse at 30% 60%,rgba(59,111,182,0.05) 0%,transparent 55%),radial-gradient(ellipse at 70% 50%,rgba(201,169,110,0.04) 0%,transparent 50%);z-index:0;"></div>
+            <div style="position:absolute;top:20%;left:15%;width:400px;height:400px;background:radial-gradient(circle,rgba(201,169,110,0.06) 0%,transparent 70%);border-radius:50%;filter:blur(60px);animation:slowPulse 6s ease-in-out infinite;z-index:0;"></div>
+            <div style="position:absolute;bottom:25%;right:10%;width:350px;height:350px;background:radial-gradient(circle,rgba(180,160,200,0.04) 0%,transparent 70%);border-radius:50%;filter:blur(50px);animation:slowPulse 8s ease-in-out infinite;animation-delay:3s;z-index:0;"></div>
+
+            <div class="max-w-5xl mx-auto text-center relative z-10" style="position:relative;">
+                <div class="reveal-text" style="margin-bottom:12px;">
+                    <span style="display:inline-block;padding:8px 20px;background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.2);border-radius:50px;font-size:0.85rem;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;color:#d4bc8b;">Trusted Nationwide Since 1998</span>
+                </div>
+                <h1 class="reveal-text font-display text-display-xl" style="color:#f5f0e8;margin-bottom:20px;font-weight:600;">
+                    Your Policy.<br><span class="gold-gradient-text">Your Future.</span> Your Choice.
+                </h1>
+                <p class="reveal-text" style="font-size:clamp(1.1rem,1.6vw,1.35rem);color:#b8b0a0;max-width:680px;margin:0 auto 32px;line-height:1.55;font-weight:400;">
+                    You may qualify to <strong style="color:#f5f0e8;font-weight:600;">sell your life insurance policy for cash</strong> — a lump sum payment you can use today, with no obligations and complete confidentiality.
+                </p>
+                <div class="reveal-text" style="display:flex;flex-wrap:wrap;gap:14px;justify-content:center;align-items:center;margin-bottom:28px;">
+                    <span style="display:inline-flex;align-items:center;gap:6px;font-size:0.85rem;color:#b8b0a0;background:rgba(255,255,255,0.03);padding:8px 16px;border-radius:50px;border:1px solid rgba(255,255,255,0.06);">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Age 65+
+                    </span>
+                    <span style="display:inline-flex;align-items:center;gap:6px;font-size:0.85rem;color:#b8b0a0;background:rgba(255,255,255,0.03);padding:8px 16px;border-radius:50px;border:1px solid rgba(255,255,255,0.06);">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> $100,000+ Policy
+                    </span>
+                    <span style="display:inline-flex;align-items:center;gap:6px;font-size:0.85rem;color:#b8b0a0;background:rgba(255,255,255,0.03);padding:8px 16px;border-radius:50px;border:1px solid rgba(255,255,255,0.06);">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Recent Medical Changes
+                    </span>
+                </div>
+                <div class="reveal-text" style="display:flex;flex-wrap:wrap;gap:16px;justify-content:center;align-items:center;margin-bottom:36px;">
+                    <a href="#eligibility-form" class="btn-primary magnetic-btn" style="font-size:1.1rem;padding:18px 42px;">Get Your Free Policy Review →</a>
+                    <a href="#how-it-works" class="btn-secondary">See How It Works</a>
+                </div>
+                <div class="reveal-text" style="display:flex;flex-wrap:wrap;gap:28px;justify-content:center;align-items:center;">
+                    <div style="display:flex;align-items:center;gap:8px;">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                        <span style="font-size:0.82rem;color:#7a7568;">Confidential & Secure</span>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:8px;">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        <span style="font-size:0.82rem;color:#7a7568;">No Obligation Review</span>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:8px;">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        <span style="font-size:0.82rem;color:#7a7568;">Free Eligibility Check</span>
+                    </div>
+                </div>
+            </div>
+            <div style="position:absolute;bottom:30px;left:50%;transform:translateX(-50%);z-index:10;animation:gentleBounce 2s ease-in-out infinite;">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <style>
+                @keyframes gentleBounce {
+                    0%,
+                    100% {
+                        transform: translateX(-50%) translateY(0);
+                    }
+                    50% {
+                        transform: translateX(-50%) translateY(10px);
+                    }
+                }
+            </style>
+        </section>
+
+        <section id="eligibility-form" style="position:relative;padding:80px 20px;background:var(--bg-secondary);">
+            <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(201,169,110,0.04) 0%,transparent 70%);pointer-events:none;"></div>
+            <div class="max-w-4xl mx-auto relative z-10">
+                <div class="text-center reveal-text" style="margin-bottom:48px;">
+                    <span style="display:inline-block;padding:8px 20px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.15);border-radius:50px;font-size:0.8rem;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;color:#d4bc8b;margin-bottom:16px;">Free & Confidential</span>
+                    <h2 class="font-display text-display-md" style="color:#f5f0e8;font-weight:600;margin-bottom:12px;">Check Your Eligibility</h2>
+                    <p style="color:#b8b0a0;font-size:1.05rem;max-width:560px;margin:0 auto;">Complete this form for a <strong style="color:#f5f0e8;">free, no-obligation policy review</strong>. A licensed specialist will provide a potential cash offer estimate.</p>
+                </div>
+                <div class="glass-card-light reveal-card" style="padding:40px 36px;border-radius:var(--radius-xl);">
+                    <form id="eligibility-form-inner" style="display:grid;grid-template-columns:1fr 1fr;gap:20px;" novalidate>
+                        <div style="grid-column:1/-1;display:flex;align-items:center;gap:10px;padding:12px 18px;background:rgba(201,169,110,0.04);border-radius:var(--radius-sm);border:1px solid rgba(201,169,110,0.12);margin-bottom:4px;">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                            <span style="font-size:0.82rem;color:#d4bc8b;font-weight:500;">Your information is encrypted and never shared. No obligation to proceed.</span>
+                        </div>
+                        <div><label for="full-name" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">Full Name *</label><input type="text" id="full-name" name="full_name" required placeholder="John M. Smith" style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;"></div>
+                        <div><label for="email" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">Email Address *</label><input type="email" id="email" name="email" required placeholder="john@email.com" style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;"></div>
+                        <div><label for="phone" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">Phone Number *</label><input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567" style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;"></div>
+                        <div><label for="age" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">Your Age *</label><input type="number" id="age" name="age" required placeholder="68" min="18" max="120" style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;"></div>
+                        <div><label for="state" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">State of Residence *</label><select id="state" name="state" required style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;appearance:none;cursor:pointer;"><option value="">Select State</option><option value="AL">Alabama</option><option value="AZ">Arizona</option><option value="CA">California</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="IL">Illinois</option><option value="MI">Michigan</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="OH">Ohio</option><option value="PA">Pennsylvania</option><option value="TX">Texas</option><option value="VA">Virginia</option><option value="WA">Washington</option></select></div>
+                        <div><label for="policy-amount" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">Policy Face Amount *</label><select id="policy-amount" name="policy_amount" required style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;appearance:none;cursor:pointer;"><option value="">Select Range</option><option value="100k-250k">$100,000 – $250,000</option><option value="250k-500k">$250,000 – $500,000</option><option value="500k-1m">$500,000 – $1,000,000</option><option value="1m+">$1,000,000+</option></select></div>
+                        <div><label for="policy-type" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">Policy Type</label><select id="policy-type" name="policy_type" style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;appearance:none;cursor:pointer;"><option value="">Select Type</option><option value="term">Term Life</option><option value="whole">Whole Life</option><option value="universal">Universal Life</option><option value="group">Group Life</option><option value="other">Other / Not Sure</option></select></div>
+                        <div><label for="health-rating" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">General Health Rating</label><select id="health-rating" name="health_rating" style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;appearance:none;cursor:pointer;"><option value="">Select</option><option value="excellent">Excellent</option><option value="good">Good</option><option value="fair">Fair</option><option value="poor">Poor / Medical Changes</option></select></div>
+                        <div style="grid-column:1/-1;">
+                            <button type="submit" class="btn-primary magnetic-btn" style="width:100%;padding:18px;font-size:1.1rem;">Submit For Free Policy Review →</button>
+                            <p style="text-align:center;margin-top:14px;font-size:0.78rem;color:#7a7568;">By submitting, you agree to our <a href="#" style="color:#b8b0a0;text-decoration:underline;">Privacy Policy</a>. No obligation. Confidential review.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" style="position:relative;padding:100px 20px;background:var(--bg-primary);">
+            <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,rgba(59,111,182,0.04) 0%,transparent 60%);pointer-events:none;"></div>
+            <div class="max-w-5xl mx-auto relative z-10">
+                <div class="text-center reveal-text" style="margin-bottom:56px;">
+                    <span style="display:inline-block;padding:8px 20px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.15);border-radius:50px;font-size:0.8rem;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;color:#d4bc8b;margin-bottom:16px;">The Process</span>
+                    <h2 class="font-display text-display-md" style="color:#f5f0e8;font-weight:600;">How It Works</h2>
+                    <p style="color:#b8b0a0;font-size:1.05rem;max-width:500px;margin:0 auto;">A simple, guided process designed with your comfort in mind.</p>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:0;position:relative;">
+                    <div style="position:absolute;left:16px;top:28px;bottom:28px;width:2px;background:linear-gradient(to bottom,rgba(201,169,110,0.4),rgba(201,169,110,0.06));z-index:0;display:none;" class="md:block"></div>
+                    <div class="reveal-card" style="display:flex;gap:24px;align-items:flex-start;position:relative;z-index:1;padding:24px 0;">
+                        <div class="timeline-dot hidden md:block" style="margin-top:4px;"></div>
+                        <div class="glass-card" style="flex:1;padding:28px 30px;border-radius:var(--radius-lg);">
+                            <span style="font-size:0.75rem;font-weight:700;letter-spacing:0.08em;color:#c9a96e;text-transform:uppercase;">Step 1</span>
+                            <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;color:#f5f0e8;margin:6px 0 8px;">Submit Your Information</h3>
+                            <p style="color:#b8b0a0;font-size:0.95rem;line-height:1.55;">Complete the confidential eligibility form above. It takes just a few minutes — and there is absolutely no obligation to proceed.</p>
+                        </div>
+                    </div>
+                    <div class="reveal-card" style="display:flex;gap:24px;align-items:flex-start;position:relative;z-index:1;padding:24px 0;">
+                        <div class="timeline-dot hidden md:block" style="margin-top:4px;"></div>
+                        <div class="glass-card" style="flex:1;padding:28px 30px;border-radius:var(--radius-lg);">
+                            <span style="font-size:0.75rem;font-weight:700;letter-spacing:0.08em;color:#c9a96e;text-transform:uppercase;">Step 2</span>
+                            <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;color:#f5f0e8;margin:6px 0 8px;">Speak With a Licensed Specialist</h3>
+                            <p style="color:#b8b0a0;font-size:0.95rem;line-height:1.55;">A compassionate, licensed advisor will contact you to discuss your policy and answer any questions. The call is free and confidential.</p>
+                        </div>
+                    </div>
+                    <div class="reveal-card" style="display:flex;gap:24px;align-items:flex-start;position:relative;z-index:1;padding:24px 0;">
+                        <div class="timeline-dot hidden md:block" style="margin-top:4px;"></div>
+                        <div class="glass-card" style="flex:1;padding:28px 30px;border-radius:var(--radius-lg);">
+                            <span style="font-size:0.75rem;font-weight:700;letter-spacing:0.08em;color:#c9a96e;text-transform:uppercase;">Step 3</span>
+                            <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;color:#f5f0e8;margin:6px 0 8px;">Policy Review & Evaluation</h3>
+                            <p style="color:#b8b0a0;font-size:0.95rem;line-height:1.55;">Our team carefully evaluates your policy details and provides a clear, transparent potential cash offer — with no pressure and no hidden fees.</p>
+                        </div>
+                    </div>
+                    <div class="reveal-card" style="display:flex;gap:24px;align-items:flex-start;position:relative;z-index:1;padding:24px 0;">
+                        <div class="timeline-dot hidden md:block" style="margin-top:4px;"></div>
+                        <div class="glass-card" style="flex:1;padding:28px 30px;border-radius:var(--radius-lg);">
+                            <span style="font-size:0.75rem;font-weight:700;letter-spacing:0.08em;color:#c9a96e;text-transform:uppercase;">Step 4</span>
+                            <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;color:#f5f0e8;margin:6px 0 8px;">Receive Your Cash Payout</h3>
+                            <p style="color:#b8b0a0;font-size:0.95rem;line-height:1.55;">If you choose to accept the offer, you receive a lump-sum cash payment. The decision is entirely yours — with zero obligation at every stage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-sell" style="position:relative;padding:100px 20px;background:var(--bg-secondary);">
+            <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 70% 40%,rgba(201,169,110,0.03) 0%,transparent 60%);pointer-events:none;"></div>
+            <div class="max-w-5xl mx-auto relative z-10">
+                <div class="text-center reveal-text" style="margin-bottom:56px;">
+                    <span style="display:inline-block;padding:8px 20px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.15);border-radius:50px;font-size:0.8rem;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;color:#d4bc8b;margin-bottom:16px;">Real Reasons, Real Relief</span>
+                    <h2 class="font-display text-display-md" style="color:#f5f0e8;font-weight:600;">Why Families Choose to Sell Their Policy</h2>
+                    <p style="color:#b8b0a0;font-size:1.05rem;max-width:550px;margin:0 auto;">Every situation is unique. Here are some of the most common reasons people explore a life settlement.</p>
+                </div>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;">
+                    <div class="glass-card reveal-card" style="padding:30px 26px;text-align:center;">
+                        <div style="width:50px;height:50px;border-radius:50%;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                        </div>
+                        <h3 style="font-family:'Playfair Display',serif;font-size:1.25rem;color:#f5f0e8;margin-bottom:8px;">Medical Expenses</h3>
+                        <p style="color:#b8b0a0;font-size:0.9rem;line-height:1.5;">Cover unexpected medical bills, treatments, or long-term care costs with dignity and financial peace of mind.</p>
+                    </div>
+                    <div class="glass-card reveal-card" style="padding:30px 26px;text-align:center;">
+                        <div style="width:50px;height:50px;border-radius:50%;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <h3 style="font-family:'Playfair Display',serif;font-size:1.25rem;color:#f5f0e8;margin-bottom:8px;">Retirement Flexibility</h3>
+                        <p style="color:#b8b0a0;font-size:0.9rem;line-height:1.5;">Access cash to enhance your retirement years — travel, help family, or simply enjoy greater financial freedom.</p>
+                    </div>
+                    <div class="glass-card reveal-card" style="padding:30px 26px;text-align:center;">
+                        <div style="width:50px;height:50px;border-radius:50%;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+                        </div>
+                        <h3 style="font-family:'Playfair Display',serif;font-size:1.25rem;color:#f5f0e8;margin-bottom:8px;">Rising Premiums</h3>
+                        <p style="color:#b8b0a0;font-size:0.9rem;line-height:1.5;">If maintaining premium payments has become a burden, a settlement can relieve that financial pressure immediately.</p>
+                    </div>
+                    <div class="glass-card reveal-card" style="padding:30px 26px;text-align:center;">
+                        <div style="width:50px;height:50px;border-radius:50%;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                        </div>
+                        <h3 style="font-family:'Playfair Display',serif;font-size:1.25rem;color:#f5f0e8;margin-bottom:8px;">Family Support</h3>
+                        <p style="color:#b8b0a0;font-size:0.9rem;line-height:1.5;">Help children or grandchildren with education, home purchases, or other meaningful life milestones.</p>
+                    </div>
+                    <div class="glass-card reveal-card" style="padding:30px 26px;text-align:center;">
+                        <div style="width:50px;height:50px;border-radius:50%;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+                        </div>
+                        <h3 style="font-family:'Playfair Display',serif;font-size:1.25rem;color:#f5f0e8;margin-bottom:8px;">Long-Term Care</h3>
+                        <p style="color:#b8b0a0;font-size:0.9rem;line-height:1.5;">Fund assisted living, in-home care, or specialized facilities so you or a loved one receives the best possible support.</p>
+                    </div>
+                    <div class="glass-card reveal-card" style="padding:30px 26px;text-align:center;">
+                        <div style="width:50px;height:50px;border-radius:50%;background:rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3 style="font-family:'Playfair Display',serif;font-size:1.25rem;color:#f5f0e8;margin-bottom:8px;">Financial Peace of Mind</h3>
+                        <p style="color:#b8b0a0;font-size:0.9rem;line-height:1.5;">Sometimes the greatest gift is simply knowing you have options and financial security when life changes unexpectedly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="trust" style="position:relative;padding:100px 20px;background:var(--bg-primary);">
+            <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(201,169,110,0.03) 0%,transparent 55%);pointer-events:none;"></div>
+            <div class="max-w-5xl mx-auto relative z-10">
+                <div class="text-center reveal-text" style="margin-bottom:56px;">
+                    <span style="display:inline-block;padding:8px 20px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.15);border-radius:50px;font-size:0.8rem;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;color:#d4bc8b;margin-bottom:16px;">Trust & Credibility</span>
+                    <h2 class="font-display text-display-md" style="color:#f5f0e8;font-weight:600;">Why Thousands Trust Heritage Life</h2>
+                </div>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;text-align:center;">
+                    <div class="glass-card reveal-scale" style="padding:32px 20px;">
+                        <div style="font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:700;color:#c9a96e;line-height:1;">$2.8B+</div>
+                        <p style="color:#b8b0a0;font-size:0.9rem;margin-top:6px;">Policy Value Reviewed</p>
+                    </div>
+                    <div class="glass-card reveal-scale" style="padding:32px 20px;">
+                        <div style="font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:700;color:#c9a96e;line-height:1;">25K+</div>
+                        <p style="color:#b8b0a0;font-size:0.9rem;margin-top:6px;">Families Served</p>
+                    </div>
+                    <div class="glass-card reveal-scale" style="padding:32px 20px;">
+                        <div style="font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:700;color:#c9a96e;line-height:1;">26+</div>
+                        <p style="color:#b8b0a0;font-size:0.9rem;margin-top:6px;">Years in Business</p>
+                    </div>
+                    <div class="glass-card reveal-scale" style="padding:32px 20px;">
+                        <div style="font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:700;color:#c9a96e;line-height:1;">A+</div>
+                        <p style="color:#b8b0a0;font-size:0.9rem;margin-top:6px;">BBB Rating</p>
+                    </div>
+                </div>
+                <div class="glass-card reveal-card" style="margin-top:40px;padding:32px 30px;display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:center;border-radius:var(--radius-lg);">
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        <span style="font-size:0.9rem;color:#b8b0a0;">Fully Licensed & Compliant</span>
+                    </div>
+                    <div style="width:1px;height:24px;background:rgba(255,255,255,0.1);" class="hidden sm:block"></div>
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        <span style="font-size:0.9rem;color:#b8b0a0;">256-Bit Encrypted Data Protection</span>
+                    </div>
+                    <div style="width:1px;height:24px;background:rgba(255,255,255,0.1);" class="hidden sm:block"></div>
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a96e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                        <span style="font-size:0.9rem;color:#b8b0a0;">HIPAA-Compliant Privacy Standards</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" style="position:relative;padding:100px 20px;background:var(--bg-secondary);">
+            <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 60% 30%,rgba(201,169,110,0.03) 0%,transparent 55%);pointer-events:none;"></div>
+            <div class="max-w-5xl mx-auto relative z-10">
+                <div class="text-center reveal-text" style="margin-bottom:56px;">
+                    <span style="display:inline-block;padding:8px 20px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.15);border-radius:50px;font-size:0.8rem;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;color:#d4bc8b;margin-bottom:16px;">Stories of Relief</span>
+                    <h2 class="font-display text-display-md" style="color:#f5f0e8;font-weight:600;">What Families Are Saying</h2>
+                </div>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;">
+                    <div class="glass-card reveal-card" style="padding:32px 28px;border-radius:var(--radius-lg);">
+                        <div style="display:flex;gap:3px;margin-bottom:14px;">
+                            <span style="color:#c9a96e;">★</span><span style="color:#c9a96e;">★</span><span style="color:#c9a96e;">★</span><span style="color:#c9a96e;">★</span><span style="color:#c9a96e;">★</span>
+                        </div>
+                        <p style="color:#f5f0e8;font-size:1rem;line-height:1.6;font-style:italic;margin-bottom:18px;">"After my husband's diagnosis, we needed options. Heritage Life treated us with such compassion and helped us access funds we never knew we had. It gave us breathing room when we needed it most."</p>
+                        <div style="border-top:1px solid rgba(255,255,255,0.06);padding-top:16px;">
+                            <span style="font-weight:600;color:#f5f0e8;font-size:0.9rem;">Margaret T.</span>
+                            <span style="color:#7a7568;font-size:0.8rem;display:block;">Tampa, FL</span>
+                        </div>
+                    </div>
+                    <div class="glass-card reveal-card" style="padding:32px 28px;border-radius:var(--radius-lg);">
+                        <div style="display:flex;gap:3px;margin-bottom:14px;">
+                            <span style="color:#c9a96e;">★</span><span style="color:#c9a96e;">★</span><span style="color:#c9a96e;">★</span><span style="color:#c9a96e;">★</span><span style="color:#c9a96e;">★</span>
+                        </div>
+                        <p style="color:#f5f0e8;font-size:1rem;line-height:1.6;font-style:italic;margin-bottom:18px;">"I was skeptical at first, but the advisor walked me through everything so patiently. The cash payout helped me move into a wonderful retirement community. I'm so grateful."</p>
+                        <div style="border-top:1px solid rgba(255,255,255,0.06);padding-top:16px;">
+                            <span style="font-weight:600;color:#f5f0e8;font-size:0.9rem;">Robert K.</span>
+                            <span style="color:#7a7568;font-size:0.8rem;display:block;">Scottsdale, AZ</span>
+                        </div>
+                    </div>
+                    <div class="glass-card reveal-card" style="padding:32px 28px;border-radius:var(--radius-lg);">
+                        <div style="display:flex;gap:3px;margin-bottom:14px;">
+                            <span style="color:#c9a96e;">★</span><span style="color:#c9a96e;">★</span><span style="color:#c9a96e;">★</span><span style="color:#c9a96e;">★</span><span style="color:#c9a96e;">★</span>
+                        </div>
+                        <p style="color:#f5f0e8;font-size:1rem;line-height:1.6;font-style:italic;margin-bottom:18px;">"The process was so much smoother than I expected. No pressure, no confusing paperwork. Just honest guidance and a fair offer. My family is in a much better place now."</p>
+                        <div style="border-top:1px solid rgba(255,255,255,0.06);padding-top:16px;">
+                            <span style="font-weight:600;color:#f5f0e8;font-size:0.9rem;">Patricia & David L.</span>
+                            <span style="color:#7a7568;font-size:0.8rem;display:block;">Raleigh, NC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="get-covered" style="position:relative;padding:100px 20px;background:var(--bg-primary);">
+            <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 60%,rgba(59,111,182,0.04) 0%,transparent 60%);pointer-events:none;"></div>
+            <div class="max-w-4xl mx-auto relative z-10">
+                <div class="text-center reveal-text" style="margin-bottom:40px;">
+                    <span style="display:inline-block;padding:8px 20px;background:rgba(59,111,182,0.1);border:1px solid rgba(59,111,182,0.2);border-radius:50px;font-size:0.8rem;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;color:#7aadd6;margin-bottom:16px;">Protection Planning</span>
+                    <h2 class="font-display text-display-md" style="color:#f5f0e8;font-weight:600;">Don't Have Life Insurance? Let's Change That.</h2>
+                    <p style="color:#b8b0a0;font-size:1.05rem;max-width:560px;margin:0 auto;">Protecting your family's future is one of the most meaningful decisions you can make. Get a free, no-obligation quote today.</p>
+                </div>
+                <div class="glass-card-light reveal-card" style="padding:40px 36px;border-radius:var(--radius-xl);">
+                    <form id="coverage-form" style="display:grid;grid-template-columns:1fr 1fr;gap:20px;" novalidate>
+                        <div><label for="cov-name" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">Full Name *</label><input type="text" id="cov-name" name="cov_name" required placeholder="Jane D. Smith" style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;"></div>
+                        <div><label for="cov-phone" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">Phone *</label><input type="tel" id="cov-phone" name="cov_phone" required placeholder="(555) 123-4567" style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;"></div>
+                        <div><label for="cov-email" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">Email *</label><input type="email" id="cov-email" name="cov_email" required placeholder="jane@email.com" style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;"></div>
+                        <div><label for="cov-age" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">Age *</label><input type="number" id="cov-age" name="cov_age" required placeholder="55" min="18" max="120" style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;"></div>
+                        <div><label for="cov-state" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">State *</label><select id="cov-state" name="cov_state" required style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;appearance:none;cursor:pointer;"><option value="">Select State</option><option value="AL">Alabama</option><option value="CA">California</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="IL">Illinois</option><option value="NY">New York</option><option value="OH">Ohio</option><option value="PA">Pennsylvania</option><option value="TX">Texas</option><option value="VA">Virginia</option></select></div>
+                        <div><label for="cov-desired" style="display:block;font-size:0.85rem;font-weight:500;color:#b8b0a0;margin-bottom:6px;">Desired Coverage</label><select id="cov-desired" name="cov_desired" style="width:100%;padding:14px 18px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius-sm);color:#f5f0e8;font-size:1rem;font-family:'Inter',sans-serif;transition:all 0.3s;appearance:none;cursor:pointer;"><option value="">Select</option><option value="50k">$50,000</option><option value="100k">$100,000</option><option value="250k">$250,000</option><option value="500k">$500,000</option><option value="1m">$1,000,000+</option></select></div>
+                        <div style="grid-column:1/-1;">
+                            <button type="submit" class="btn-primary magnetic-btn" style="width:100%;padding:18px;font-size:1.1rem;background:linear-gradient(135deg,#3b6fb6,#2c5a96);box-shadow:0 4px 24px rgba(59,111,182,0.25);">Get My Free Coverage Quote →</button>
+                            <p style="text-align:center;margin-top:14px;font-size:0.78rem;color:#7a7568;">Free quote. No obligation. Speak with a licensed advisor.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="coverage-education" style="position:relative;padding:100px 20px;background:var(--bg-secondary);">
+            <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(59,111,182,0.03) 0%,transparent 60%);pointer-events:none;"></div>
+            <div class="max-w-5xl mx-auto relative z-10">
+                <div class="text-center reveal-text" style="margin-bottom:48px;">
+                    <h2 class="font-display text-display-md" style="color:#f5f0e8;font-weight:600;">Why Life Insurance Matters</h2>
+                    <p style="color:#b8b0a0;font-size:1.05rem;max-width:560px;margin:0 auto;">A life insurance policy is more than a contract — it's a promise to the people you love most.</p>
+                </div>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;">
+                    <div class="glass-card reveal-card" style="padding:28px 24px;text-align:center;">
+                        <div style="width:44px;height:44px;border-radius:50%;background:rgba(59,111,182,0.12);display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7aadd6" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
+                        </div>
+                        <h3 style="font-family:'Playfair Display',serif;font-size:1.15rem;color:#f5f0e8;margin-bottom:6px;">Protect Your Legacy</h3>
+                        <p style="color:#b8b0a0;font-size:0.85rem;line-height:1.5;">Ensure your loved ones are taken care of, no matter what tomorrow brings.</p>
+                    </div>
+                    <div class="glass-card reveal-card" style="padding:28px 24px;text-align:center;">
+                        <div style="width:44px;height:44px;border-radius:50%;background:rgba(59,111,182,0.12);display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7aadd6" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+                        </div>
+                        <h3 style="font-family:'Playfair Display',serif;font-size:1.15rem;color:#f5f0e8;margin-bottom:6px;">Income Replacement</h3>
+                        <p style="color:#b8b0a0;font-size:0.85rem;line-height:1.5;">Replace lost income so your family can maintain their quality of life.</p>
+                    </div>
+                    <div class="glass-card reveal-card" style="padding:28px 24px;text-align:center;">
+                        <div style="width:44px;height:44px;border-radius:50%;background:rgba(59,111,182,0.12);display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7aadd6" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+                        </div>
+                        <h3 style="font-family:'Playfair Display',serif;font-size:1.15rem;color:#f5f0e8;margin-bottom:6px;">Final Expenses</h3>
+                        <p style="color:#b8b0a0;font-size:0.85rem;line-height:1.5;">Cover funeral costs and outstanding debts so your family isn't burdened.</p>
+                    </div>
+                    <div class="glass-card reveal-card" style="padding:28px 24px;text-align:center;">
+                        <div style="width:44px;height:44px;border-radius:50%;background:rgba(59,111,182,0.12);display:flex;align-items:center;justify-content:center;margin:0 auto 14px;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7aadd6" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <h3 style="font-family:'Playfair Display',serif;font-size:1.15rem;color:#f5f0e8;margin-bottom:6px;">Retirement Peace</h3>
+                        <p style="color:#b8b0a0;font-size:0.85rem;line-height:1.5;">Enjoy your retirement knowing your family's financial future is secure.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" style="position:relative;padding:100px 20px;background:var(--bg-primary);">
+            <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 40%,rgba(201,169,110,0.03) 0%,transparent 55%);pointer-events:none;"></div>
+            <div class="max-w-3xl mx-auto relative z-10">
+                <div class="text-center reveal-text" style="margin-bottom:48px;">
+                    <span style="display:inline-block;padding:8px 20px;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.15);border-radius:50px;font-size:0.8rem;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;color:#d4bc8b;margin-bottom:16px;">Common Questions</span>
+                    <h2 class="font-display text-display-md" style="color:#f5f0e8;font-weight:600;">Frequently Asked Questions</h2>
+                </div>
+                <div>
+                    <div class="faq-accordion reveal-card" style="padding:22px 0;" role="button" tabindex="0" aria-expanded="false">
+                        <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;">
+                            <h3 style="font-family:'Inter',sans-serif;font-size:1.05rem;font-weight:500;color:#f5f0e8;">Who is eligible to sell their life insurance policy?</h3>
+                            <span class="faq-icon" style="font-size:1.4rem;color:#c9a96e;line-height:1;">+</span>
+                        </div>
+                        <div class="faq-answer"><p style="color:#b8b0a0;font-size:0.95rem;line-height:1.6;padding-top:8px;">Generally, policyholders age 65 or older with a policy face value of $100,000 or more may qualify. Recent medical changes, rising premiums, or changes in financial circumstances can also make you eligible. Every situation is reviewed individually by our licensed specialists.</p></div>
+                    </div>
+                    <div class="faq-accordion reveal-card" style="padding:22px 0;" role="button" tabindex="0" aria-expanded="false">
+                        <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;">
+                            <h3 style="font-family:'Inter',sans-serif;font-size:1.05rem;font-weight:500;color:#f5f0e8;">Is the payout taxable?</h3>
+                            <span class="faq-icon" style="font-size:1.4rem;color:#c9a96e;line-height:1;">+</span>
+                        </div>
+                        <div class="faq-answer"><p style="color:#b8b0a0;font-size:0.95rem;line-height:1.6;padding-top:8px;">Tax treatment varies by individual circumstances. In many cases, a portion of the settlement may be tax-free, while other portions may be subject to capital gains or ordinary income tax. We recommend consulting with a tax professional. Our advisors can help you understand the general framework.</p></div>
+                    </div>
+                    <div class="faq-accordion reveal-card" style="padding:22px 0;" role="button" tabindex="0" aria-expanded="false">
+                        <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;">
+                            <h3 style="font-family:'Inter',sans-serif;font-size:1.05rem;font-weight:500;color:#f5f0e8;">How long does the process take?</h3>
+                            <span class="faq-icon" style="font-size:1.4rem;color:#c9a96e;line-height:1;">+</span>
+                        </div>
+                        <div class="faq-answer"><p style="color:#b8b0a0;font-size:0.95rem;line-height:1.6;padding-top:8px;">Most cases are completed within 30 to 90 days from initial submission to payout. The timeline depends on factors such as policy type, medical records retrieval, and carrier processing times. We keep you informed at every stage.</p></div>
+                    </div>
+                    <div class="faq-accordion reveal-card" style="padding:22px 0;" role="button" tabindex="0" aria-expanded="false">
+                        <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;">
+                            <h3 style="font-family:'Inter',sans-serif;font-size:1.05rem;font-weight:500;color:#f5f0e8;">Is my information kept confidential?</h3>
+                            <span class="faq-icon" style="font-size:1.4rem;color:#c9a96e;line-height:1;">+</span>
+                        </div>
+                        <div class="faq-answer"><p style="color:#b8b0a0;font-size:0.95rem;line-height:1.6;padding-top:8px;">Absolutely. All information you share is protected by strict privacy protocols, including 256-bit encryption and HIPAA-compliant data handling standards. We never share your information without your explicit written consent.</p></div>
+                    </div>
+                    <div class="faq-accordion reveal-card" style="padding:22px 0;" role="button" tabindex="0" aria-expanded="false">
+                        <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;">
+                            <h3 style="font-family:'Inter',sans-serif;font-size:1.05rem;font-weight:500;color:#f5f0e8;">Can I sell a term life insurance policy?</h3>
+                            <span class="faq-icon" style="font-size:1.4rem;color:#c9a96e;line-height:1;">+</span>
+                        </div>
+                        <div class="faq-answer"><p style="color:#b8b0a0;font-size:0.95rem;line-height:1.6;padding-top:8px;">Yes. Term life policies with conversion privileges may qualify for a life settlement. Whole life, universal life, and group policies may also be eligible. Our specialists can review your specific policy to determine what options are available.</p></div>
+                    </div>
+                    <div class="faq-accordion reveal-card" style="padding:22px 0;" role="button" tabindex="0" aria-expanded="false">
+                        <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;">
+                            <h3 style="font-family:'Inter',sans-serif;font-size:1.05rem;font-weight:500;color:#f5f0e8;">Is there any obligation or cost to check my eligibility?</h3>
+                            <span class="faq-icon" style="font-size:1.4rem;color:#c9a96e;line-height:1;">+</span>
+                        </div>
+                        <div class="faq-answer"><p style="color:#b8b0a0;font-size:0.95rem;line-height:1.6;padding-top:8px;">None whatsoever. The eligibility check and policy review are completely free and carry zero obligation. You can choose to stop the process at any point. We believe in providing information so you can make the best decision for your family.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta-final" style="position:relative;padding:100px 20px;background:var(--bg-secondary);overflow:hidden;">
+            <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(201,169,110,0.06) 0%,transparent 60%);pointer-events:none;"></div>
+            <div style="position:absolute;top:30%;left:50%;transform:translate(-50%,-50%);width:500px;height:500px;background:radial-gradient(circle,rgba(201,169,110,0.08) 0%,transparent 65%);border-radius:50%;filter:blur(80px);pointer-events:none;"></div>
+            <div class="max-w-3xl mx-auto text-center relative z-10">
+                <div class="reveal-text">
+                    <span style="display:inline-block;padding:8px 20px;background:rgba(201,169,110,0.08);border:1px solid rgba(201,169,110,0.2);border-radius:50px;font-size:0.8rem;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;color:#d4bc8b;margin-bottom:20px;">Take the First Step</span>
+                </div>
+                <h2 class="reveal-text font-display text-display-lg" style="color:#f5f0e8;font-weight:600;margin-bottom:16px;">Ready to Explore Your Options?</h2>
+                <p class="reveal-text" style="color:#b8b0a0;font-size:1.1rem;max-width:500px;margin:0 auto 32px;">A brief, confidential conversation could open doors you never knew existed. There's no cost, no pressure, and no obligation.</p>
+                <div class="reveal-text" style="display:flex;flex-wrap:wrap;gap:16px;justify-content:center;">
+                    <a href="#eligibility-form" class="btn-primary magnetic-btn" style="font-size:1.1rem;padding:18px 42px;">Check My Eligibility Now →</a>
+                    <a href="tel:+18005551234" class="btn-secondary" style="font-size:1rem;">Call (800) 555-1234</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="position:relative;padding:80px 20px 40px;background:var(--bg-primary);border-top:1px solid rgba(255,255,255,0.05);">
+        <div class="max-w-6xl mx-auto">
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:36px;margin-bottom:48px;">
+                <div>
+                    <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;">
+                        <div style="width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,#c9a96e,#b8944f);display:flex;align-items:center;justify-content:center;">
+                            <span style="font-family:'Playfair Display',serif;font-weight:700;font-size:1rem;color:#0a0f1a;">H</span>
+                        </div>
+                        <span style="font-family:'Playfair Display',serif;font-weight:600;font-size:1rem;color:#f5f0e8;">Heritage Life Settlements</span>
+                    </div>
+                    <p style="color:#7a7568;font-size:0.85rem;line-height:1.5;">Trusted life settlement guidance since 1998. Licensed, secure, and committed to your family's financial well-being.</p>
+                </div>
+                <div>
+                    <h4 style="color:#f5f0e8;font-weight:600;font-size:0.9rem;margin-bottom:12px;letter-spacing:0.03em;">Quick Links</h4>
+                    <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:8px;">
+                        <li><a href="#how-it-works" style="color:#7a7568;text-decoration:none;font-size:0.85rem;transition:color 0.3s;" onmouseenter="this.style.color='#f5f0e8'" onmouseleave="this.style.color='#7a7568'">How It Works</a></li>
+                        <li><a href="#why-sell" style="color:#7a7568;text-decoration:none;font-size:0.85rem;transition:color 0.3s;" onmouseenter="this.style.color='#f5f0e8'" onmouseleave="this.style.color='#7a7568'">Why Sell</a></li>
+                        <li><a href="#faq" style="color:#7a7568;text-decoration:none;font-size:0.85rem;transition:color 0.3s;" onmouseenter="this.style.color='#f5f0e8'" onmouseleave="this.style.color='#7a7568'">FAQ</a></li>
+                        <li><a href="#get-covered" style="color:#7a7568;text-decoration:none;font-size:0.85rem;transition:color 0.3s;" onmouseenter="this.style.color='#f5f0e8'" onmouseleave="this.style.color='#7a7568'">Get Covered</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color:#f5f0e8;font-weight:600;font-size:0.9rem;margin-bottom:12px;letter-spacing:0.03em;">Legal</h4>
+                    <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:8px;">
+                        <li><a href="#" style="color:#7a7568;text-decoration:none;font-size:0.85rem;transition:color 0.3s;" onmouseenter="this.style.color='#f5f0e8'" onmouseleave="this.style.color='#7a7568'">Privacy Policy</a></li>
+                        <li><a href="#" style="color:#7a7568;text-decoration:none;font-size:0.85rem;transition:color 0.3s;" onmouseenter="this.style.color='#f5f0e8'" onmouseleave="this.style.color='#7a7568'">Terms of Service</a></li>
+                        <li><a href="#" style="color:#7a7568;text-decoration:none;font-size:0.85rem;transition:color 0.3s;" onmouseenter="this.style.color='#f5f0e8'" onmouseleave="this.style.color='#7a7568'">HIPAA Compliance</a></li>
+                        <li><a href="#" style="color:#7a7568;text-decoration:none;font-size:0.85rem;transition:color 0.3s;" onmouseenter="this.style.color='#f5f0e8'" onmouseleave="this.style.color='#7a7568'">Licensing Information</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color:#f5f0e8;font-weight:600;font-size:0.9rem;margin-bottom:12px;letter-spacing:0.03em;">Contact</h4>
+                    <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:8px;">
+                        <li style="color:#7a7568;font-size:0.85rem;">(800) 555-1234</li>
+                        <li style="color:#7a7568;font-size:0.85rem;">info@heritagelifesettlements.com</li>
+                        <li style="color:#7a7568;font-size:0.85rem;">Monday – Friday, 8am – 7pm EST</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="border-top:1px solid rgba(255,255,255,0.05);padding-top:28px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;">
+                <p style="color:#7a7568;font-size:0.78rem;">© 2026 Heritage Life Settlements. All rights reserved. This is not an offer to purchase insurance. Life settlements may not be available in all states. Consult with a licensed advisor.</p>
+                <div style="display:flex;gap:16px;">
+                    <span style="color:#7a7568;font-size:0.75rem;">SEC Compliant</span>
+                    <span style="color:#7a7568;font-size:0.75rem;">NAIC Member</span>
+                    <span style="color:#7a7568;font-size:0.75rem;">LISA Affiliated</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.45/dist/lenis.min.js">
+    </script>
+    <script>
+        (function() {
+            const loadingOverlay = document.getElementById('loading-overlay');
+            window.addEventListener('load', () => {
+                setTimeout(() => {
+                    loadingOverlay.style.opacity = '0';
+                    loadingOverlay.style.visibility = 'hidden';
+                    document.body.style.overflow = '';
+                }, 500);
+            });
+            document.body.style.overflow = 'hidden';
+
+            const lenis = new Lenis({
+                duration: 1.4,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                smoothWheel: true,
+                wheelMultiplier: 0.9,
+                touchMultiplier: 1.8,
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+
+            lenis.on('scroll', ScrollTrigger.update);
+            gsap.ticker.add((time) => { lenis.raf(time * 1000); });
+            gsap.ticker.lagSmoothing(0);
+
+            const header = document.getElementById('site-header');
+            lenis.on('scroll', ({ scroll }) => {
+                if (scroll > 60) {
+                    header.style.background = 'rgba(6,13,26,0.85)';
+                    header.style.backdropFilter = 'blur(20px)';
+                    header.style.webkitBackdropFilter = 'blur(20px)';
+                    header.style.borderBottom = '1px solid rgba(255,255,255,0.06)';
+                    header.style.boxShadow = '0 1px 3px rgba(0,0,0,0.3)';
+                } else {
+                    header.style.background = 'transparent';
+                    header.style.backdropFilter = 'none';
+                    header.style.webkitBackdropFilter = 'none';
+                    header.style.borderBottom = 'none';
+                    header.style.boxShadow = 'none';
+                }
+            });
+
+            const heroParticles = document.getElementById('hero-particles');
+            if (heroParticles && window.innerWidth > 480) {
+                const particleCount = 35;
+                for (let i = 0; i < particleCount; i++) {
+                    const particle = document.createElement('div');
+                    particle.classList.add('hero-particle');
+                    const size = Math.random() * 3 + 1.5;
+                    particle.style.width = size + 'px';
+                    particle.style.height = size + 'px';
+                    particle.style.background =
+                        `rgba(${Math.random() > 0.6 ? '201,169,110' : '200,195,180'},${Math.random() * 0.5 + 0.15})`;
+                    particle.style.left = Math.random() * 100 + '%';
+                    particle.style.top = Math.random() * 100 + '%';
+                    particle.style.setProperty('--dur', (Math.random() * 8 + 6) + 's');
+                    particle.style.setProperty('--delay', (Math.random() * 6) + 's');
+                    particle.style.setProperty('--tx', (Math.random() * 80 - 40) + 'px');
+                    particle.style.setProperty('--ty', (Math.random() * 80 - 40) + 'px');
+                    particle.style.setProperty('--sc', (Math.random() * 0.6 + 0.7));
+                    particle.style.setProperty('--peak-opacity', (Math.random() * 0.5 + 0.25));
+                    heroParticles.appendChild(particle);
+                }
+            }
+
+            gsap.registerPlugin(ScrollTrigger);
+
+            const revealTexts = document.querySelectorAll('.reveal-text');
+            revealTexts.forEach((el, i) => {
+                gsap.fromTo(el, { opacity: 0, y: 28 }, {
+                    opacity: 1,
+                    y: 0,
+                    duration: 0.9,
+                    delay: i * 0.08,
+                    ease: 'power3.out',
+                    scrollTrigger: {
+                        trigger: el,
+                        start: 'top 92%',
+                        toggleActions: 'play none none none',
+                    },
+                });
+            });
+
+            const revealCards = document.querySelectorAll('.reveal-card');
+            revealCards.forEach((el, i) => {
+                gsap.fromTo(el, { opacity: 0, y: 40 }, {
+                    opacity: 1,
+                    y: 0,
+                    duration: 0.85,
+                    delay: i * 0.06,
+                    ease: 'power3.out',
+                    scrollTrigger: {
+                        trigger: el,
+                        start: 'top 90%',
+                        toggleActions: 'play none none none',
+                    },
+                });
+            });
+
+            const revealScales = document.querySelectorAll('.reveal-scale');
+            revealScales.forEach((el, i) => {
+                gsap.fromTo(el, { opacity: 0, scale: 0.94 }, {
+                    opacity: 1,
+                    scale: 1,
+                    duration: 0.8,
+                    delay: i * 0.1,
+                    ease: 'power3.out',
+                    scrollTrigger: {
+                        trigger: el,
+                        start: 'top 90%',
+                        toggleActions: 'play none none none',
+                    },
+                });
+            });
+
+            const magneticBtns = document.querySelectorAll('.magnetic-btn');
+            magneticBtns.forEach(btn => {
+                btn.addEventListener('mousemove', (e) => {
+                    const rect = btn.getBoundingClientRect();
+                    const x = e.clientX - rect.left - rect.width / 2;
+                    const y = e.clientY - rect.top - rect.height / 2;
+                    const intensity = 0.15;
+                    btn.style.transform =
+                        `translate(${x * intensity}px, ${y * intensity}px)`;
+                });
+                btn.addEventListener('mouseleave', () => {
+                    btn.style.transform = 'translate(0, 0)';
+                });
+                btn.addEventListener('mouseenter', () => {
+                    btn.style.transition = 'transform 0.15s ease-out';
+                });
+                btn.addEventListener('mouseleave', () => {
+                    btn.style.transition = 'transform 0.4s cubic-bezier(0.34,1.56,0.64,1)';
+                });
+            });
+
+            const faqAccordions = document.querySelectorAll('.faq-accordion');
+            faqAccordions.forEach(accordion => {
+                accordion.addEventListener('click', () => {
+                    const isActive = accordion.classList.contains('active');
+                    faqAccordions.forEach(a => a.classList.remove('active'));
+                    faqAccordions.forEach(a => a.setAttribute('aria-expanded', 'false'));
+                    if (!isActive) {
+                        accordion.classList.add('active');
+                        accordion.setAttribute('aria-expanded', 'true');
+                    }
+                });
+                accordion.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        accordion.click();
+                    }
+                });
+            });
+
+            const eligibilityForm = document.getElementById('eligibility-form-inner');
+            if (eligibilityForm) {
+                eligibilityForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    const btn = eligibilityForm.querySelector('button[type="submit"]');
+                    const originalText = btn.textContent;
+                    btn.textContent = 'Submitting...';
+                    btn.style.opacity = '0.7';
+                    btn.style.pointerEvents = 'none';
+                    setTimeout(() => {
+                        btn.textContent = '✓ Thank You! We\'ll Contact You Soon';
+                        btn.style.background =
+                            'linear-gradient(135deg, #4a8a5e, #3a6e4a)';
+                        btn.style.opacity = '1';
+                        btn.style.pointerEvents = 'auto';
+                        setTimeout(() => {
+                            btn.textContent = originalText;
+                            btn.style.background =
+                                'linear-gradient(135deg, #c9a96e 0%, #b8944f 50%, #a07838 100%)';
+                            eligibilityForm.reset();
+                        }, 3000);
+                    }, 1200);
+                });
+            }
+
+            const coverageForm = document.getElementById('coverage-form');
+            if (coverageForm) {
+                coverageForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    const btn = coverageForm.querySelector('button[type="submit"]');
+                    const originalText = btn.textContent;
+                    btn.textContent = 'Submitting...';
+                    btn.style.opacity = '0.7';
+                    btn.style.pointerEvents = 'none';
+                    setTimeout(() => {
+                        btn.textContent = '✓ Quote Request Received!';
+                        btn.style.opacity = '1';
+                        btn.style.pointerEvents = 'auto';
+                        setTimeout(() => {
+                            btn.textContent = originalText;
+                            coverageForm.reset();
+                        }, 3000);
+                    }, 1200);
+                });
+            }
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    const target = document.querySelector(targetId);
+                    if (target) {
+                        e.preventDefault();
+                        lenis.scrollTo(target, { offset: 0, duration: 1.2, easing: (t) =>
+                                Math.min(1, 1.001 - Math.pow(2, -10 * t)) });
+                    }
+                });
+            });
+
+            console.log('%c Heritage Life Settlements %c Premium Experience Loaded ',
+                'background:#0a1628;color:#c9a96e;padding:10px 16px;font-size:1rem;font-family:serif;border-radius:6px 0 0 6px;',
+                'background:#c9a96e;color:#0a0f1a;padding:10px 16px;font-size:0.85rem;font-family:sans-serif;border-radius:0 6px 6px 0;');
+        })();
+    </script>
+</body>
+</html>
