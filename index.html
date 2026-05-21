@@ -1,6 +1,3 @@
-I'll output the full corrected `index.html` file. The previous version had a potential catastrophic failure if the Lenis smooth‑scroll library failed to load, which would block all JavaScript from executing and leave the loading overlay visible forever. I've wrapped Lenis initialization in a conditional check and ensured the rest of the experience always loads gracefully, even if a CDN script is unavailable. The entire premium site now loads reliably with full fallback safety.
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1157,4 +1154,3 @@ I'll output the full corrected `index.html` file. The previous version had a pot
     </script>
 </body>
 </html>
-```
